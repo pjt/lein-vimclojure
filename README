@@ -1,13 +1,22 @@
 # lein-vimclojure
 
-FIXME: write description
+Leiningen plugin for launching a Vimclojure nailgun server. The version number of
+lein-vimclojure corresponds to the version of Vimclojure it launches. 
 
 ## Usage
 
-FIXME: write
+If on lein 2, add
 
-## License
+   `[org.clojars.pjt/vimclojure "2.3.1"]`
 
-Copyright (C) 2012 FIXME
+to your `:plugins` list in your `:user` profile in `~/.lein/profiles.clj`. 
 
-Distributed under the Eclipse Public License, the same as Clojure.
+If on lein 1, run
+
+   `lein plugin install org.clojars.pjt/vimclojure "2.3.1"`
+
+To start the server, call 
+
+   `lein vimclojure &`
+
+within your project's directory.
