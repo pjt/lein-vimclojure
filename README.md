@@ -1,3 +1,9 @@
+# Warning: Don't Use This
+
+This project isn't supported for general use. (I use it to install the plugin locally, & I don't push anything to Clojars.) 
+A better choice for a lein vimclojure plugin is [lein-tarsier](https://github.com/sattvik/lein-tarsier), which is actively 
+developed & supported. 
+
 # lein-vimclojure
 
 Leiningen plugin for launching a Vimclojure nailgun server. The version number of
